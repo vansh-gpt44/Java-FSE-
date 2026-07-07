@@ -24,11 +24,11 @@ public class InventoryManagementSystem {
 
         HashMap<Integer, Prod> inventory = new HashMap<>();
 
-        // Add Products
+
         inventory.put(101, new Prod(101, "Laptop", 10, 50000));
         inventory.put(102, new Prod(102, "Mouse", 25, 500));
 
-        // Display
+
         System.out.println("Inventory:");
         System.out.println(inventory);
 
@@ -36,7 +36,6 @@ public class InventoryManagementSystem {
         System.out.println("\nAfter Update:");
         System.out.println(inventory);
 
-        // Delete Product
         inventory.remove(102);
         System.out.println("\nAfter Delete:");
         System.out.println(inventory);
