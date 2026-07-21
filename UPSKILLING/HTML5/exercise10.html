@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Exercise 10 Debugging</title>
+</head>
+<body>
+<h1>Chrome DevTools Debugging</h1>
+<button onclick="test()">Click</button>
+<p id="output"></p>
+<script>
+console.log("Portal Loaded");
+let count=0;
+function test(){
+debugger;
+count++;
+console.log("Count:",count);
+output.innerHTML="Clicked "+count+" times";
+}
+</script>
+</body>
+</html>
