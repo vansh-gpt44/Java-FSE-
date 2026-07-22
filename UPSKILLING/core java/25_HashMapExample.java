@@ -1,0 +1,1 @@
+import java.util.*; public class HashMapExample{public static void main(String[]a){HashMap<Integer,String> m=new HashMap<>();m.put(1,"Java");System.out.println(m);}}

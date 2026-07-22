@@ -1,0 +1,1 @@
+import java.io.*;import java.util.*; public class FileReading{public static void main(String[]a)throws Exception{Scanner sc=new Scanner(new File("output.txt"));while(sc.hasNextLine())System.out.println(sc.nextLine());sc.close();}}

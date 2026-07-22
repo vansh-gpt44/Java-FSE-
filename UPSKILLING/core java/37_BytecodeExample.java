@@ -1,0 +1,1 @@
+public class BytecodeExample{public static void main(String[]a){System.out.println("Compile using javac then inspect with javap -c");}}

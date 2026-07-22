@@ -1,0 +1,1 @@
+public class ArraySumAverage{public static void main(String[]a){int[]x={1,2,3,4,5};int s=0;for(int i:x)s+=i;System.out.println("Sum="+s+" Avg="+(s/(double)x.length));}}

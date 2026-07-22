@@ -1,0 +1,1 @@
+public class VirtualThreads{public static void main(String[]a)throws Exception{Thread.startVirtualThread(()->System.out.println("Virtual Thread"));Thread.sleep(500);}}

@@ -1,0 +1,1 @@
+public class Palindrome{public static void main(String[]a){String s="madam";String r=new StringBuilder(s).reverse().toString();System.out.println(s.equals(r));}}

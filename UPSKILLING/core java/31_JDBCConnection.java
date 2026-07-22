@@ -1,0 +1,1 @@
+import java.sql.*; public class JDBCConnection{public static void main(String[]a)throws Exception{System.out.println("Configure JDBC URL, user and password before running.");}}

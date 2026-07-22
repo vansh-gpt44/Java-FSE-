@@ -1,0 +1,1 @@
+interface Play{void play();} class Guitar implements Play{public void play(){System.out.println("Playing");}} public class InterfaceExample{public static void main(String[]a){new Guitar().play();}}

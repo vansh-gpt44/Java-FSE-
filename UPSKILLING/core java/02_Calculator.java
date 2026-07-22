@@ -1,0 +1,1 @@
+import java.util.*; public class Calculator{public static void main(String[] a){Scanner sc=new Scanner(System.in);double x=sc.nextDouble(),y=sc.nextDouble();int c=sc.nextInt();switch(c){case 1:System.out.println(x+y);break;case 2:System.out.println(x-y);break;case 3:System.out.println(x*y);break;case 4:System.out.println(y!=0?x/y:"Division by zero");}}}

@@ -1,0 +1,1 @@
+record Person(String name,int age){} public class RecordExample{public static void main(String[]a){Person p=new Person("Vansh",21);System.out.println(p);}}

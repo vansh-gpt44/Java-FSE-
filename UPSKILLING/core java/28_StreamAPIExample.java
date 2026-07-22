@@ -1,0 +1,1 @@
+import java.util.*; public class StreamAPIExample{public static void main(String[]a){Arrays.asList(1,2,3,4).stream().filter(i->i%2==0).forEach(System.out::println);}}

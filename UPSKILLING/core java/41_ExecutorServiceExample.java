@@ -1,0 +1,1 @@
+import java.util.concurrent.*; public class ExecutorServiceExample{public static void main(String[]a)throws Exception{ExecutorService ex=Executors.newFixedThreadPool(2);Future<Integer> f=ex.submit(()->42);System.out.println(f.get());ex.shutdown();}}

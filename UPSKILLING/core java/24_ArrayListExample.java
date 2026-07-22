@@ -1,0 +1,1 @@
+import java.util.*; public class ArrayListExample{public static void main(String[]a){ArrayList<String> l=new ArrayList<>();l.add("Java");l.add("Spring");System.out.println(l);}}

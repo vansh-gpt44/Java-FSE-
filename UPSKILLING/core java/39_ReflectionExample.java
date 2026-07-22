@@ -1,0 +1,1 @@
+import java.lang.reflect.*; public class ReflectionExample{public static void main(String[]a){for(Method m:ReflectionExample.class.getDeclaredMethods())System.out.println(m.getName());}}

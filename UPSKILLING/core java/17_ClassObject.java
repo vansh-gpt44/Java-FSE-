@@ -1,0 +1,1 @@
+class Car{String m;Car(String m){this.m=m;}void show(){System.out.println(m);}} public class ClassObject{public static void main(String[]a){new Car("Toyota").show();}}

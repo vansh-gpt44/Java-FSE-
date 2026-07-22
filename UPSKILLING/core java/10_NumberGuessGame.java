@@ -1,0 +1,1 @@
+import java.util.*; public class NumberGuessGame{public static void main(String[] a){Random r=new Random();Scanner sc=new Scanner(System.in);int s=r.nextInt(100)+1,g;do{g=sc.nextInt();if(g>s)System.out.println("High");else if(g<s)System.out.println("Low");else System.out.println("Correct");}while(g!=s);}}

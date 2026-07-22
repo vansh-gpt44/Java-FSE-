@@ -1,0 +1,1 @@
+public class PatternSwitch{static void show(Object o){if(o instanceof String s)System.out.println(s);else if(o instanceof Integer i)System.out.println(i);} public static void main(String[]a){show("Java");show(10);}}

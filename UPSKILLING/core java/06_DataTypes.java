@@ -1,0 +1,1 @@
+public class DataTypes{public static void main(String[] a){int age=21;double salary=55000.5;float p=89.6f;char g='A';boolean pass=true;String name="Vansh";System.out.println(name+" "+age+" "+salary+" "+p+" "+g+" "+pass);}}

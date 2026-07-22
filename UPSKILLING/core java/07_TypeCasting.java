@@ -1,0 +1,1 @@
+public class TypeCasting{public static void main(String[] a){double d=99.95;int i=(int)d;System.out.println(d);System.out.println(i);}}

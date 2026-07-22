@@ -1,0 +1,1 @@
+class Animal{void sound(){System.out.println("Animal");}} class Dog extends Animal{void bark(){System.out.println("Bark");}} public class Inheritance{public static void main(String[]a){Dog d=new Dog();d.sound();d.bark();}}

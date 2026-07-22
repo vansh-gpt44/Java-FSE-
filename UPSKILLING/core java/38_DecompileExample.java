@@ -1,0 +1,1 @@
+public class DecompileExample{public static void main(String[]a){System.out.println("Use JD-GUI or CFR to inspect compiled class.");}}
