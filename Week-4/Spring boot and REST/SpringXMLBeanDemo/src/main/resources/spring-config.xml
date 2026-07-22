@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="address" class="com.example.spring.Address" scope="singleton">
+    <property name="city" value="Delhi"/>
+    <property name="country" value="India"/>
+</bean>
+
+<bean id="student" class="com.example.spring.Student" scope="prototype">
+    <constructor-arg name="id" value="101"/>
+    <constructor-arg name="name" value="Vansh"/>
+    <property name="address" ref="address"/>
+</bean>
+
+</beans>
